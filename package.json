@@ -2,7 +2,8 @@
   "name": "frimania",
   "private": true,
   "scripts": {
-    "lint:javascript": "eslint --fix app/frontend/javascripts/**/*"
+    "lint:javascript": "eslint --fix app/frontend/javascripts/**/*",
+    "lint:stylesheet": "stylelint --fix app/frontend/stylesheets/**/*.scss"
   },
   "dependencies": {
     "@rails/webpacker": "3.5",
@@ -17,6 +18,9 @@
     "eslint": "^5.4.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
+    "stylelint": "^9.4.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-scss": "^3.3.0",
     "webpack-dev-server": "2.11.2"
   }
 }
