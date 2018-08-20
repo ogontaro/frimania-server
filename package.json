@@ -2,6 +2,7 @@
   "name": "frimania",
   "private": true,
   "scripts": {
+    "lint": "yarn run lint:javascript && yarn run lint:stylesheet",
     "lint:javascript": "eslint --fix app/frontend/javascripts/**/*",
     "lint:stylesheet": "stylelint --fix app/frontend/stylesheets/**/*.scss"
   },
