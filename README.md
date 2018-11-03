@@ -3,3 +3,6 @@
 
 ## ruby
 2.5.1
+
+## instalation
+bundle exec rails s
