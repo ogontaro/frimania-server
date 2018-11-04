@@ -6,3 +6,5 @@
 
 ## instalation
 bundle exec rails s
+
+## other
