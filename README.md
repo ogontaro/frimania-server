@@ -5,6 +5,9 @@
 2.5.1
 
 ## instalation
+```
+bundle install
 bundle exec rails s
+```
 
 ## other
